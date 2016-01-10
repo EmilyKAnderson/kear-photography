@@ -1,0 +1,46 @@
+{
+  "name": "project_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilyKAnderson/project_template.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Emily K Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilyKAnderson/project_template/issues"
+  },
+  "homepage": "https://github.com/EmilyKAnderson/project_template#readme",
+  "dependencies": {
+    "express": "4.13.1",
+    "express-handlebars": "2.0.1",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.1",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-if": "^2.0.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-useref": "^3.0.4",
+    "run-sequence": "^1.1.2"
+  },
+
+  "devDependencies": {
+    "browser-sync": "^2.8.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-sass-lint": "*",
+    "gulp-size": "^1.2.0"
+  }
+}
