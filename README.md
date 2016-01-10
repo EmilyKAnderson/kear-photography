@@ -22,11 +22,13 @@ edit routes in routes.js
 
 to use a different layout for a page
 
+```
 app.get('newpage', function(req,res) {
 	res.render('newpage', {
 		layout. 'newlayout'
 	});
 });
+```
 
 **partials**
 find partials in /views/partials/
