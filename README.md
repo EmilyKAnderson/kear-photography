@@ -1,15 +1,16 @@
 # project_template
 A Template for Web Dev Projects
 
-```
 ## SETUP
-
+```
 sudo nmp install
 nodemon app.js
 
 ```
 ## Watch Files
+```
 gulp serve
+```
 
 #Handlebars Page Templates
 
